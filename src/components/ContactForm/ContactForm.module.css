@@ -1,0 +1,16 @@
+.contact-label {
+display: flex;
+width: 500px;
+justify-content: space-between;
+font-size: 26px;
+}
+
+.contact-label:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contact-input {    
+font-size: 26px;
+border: 1px solid blueviolet;
+border-radius: 10px;
+}
